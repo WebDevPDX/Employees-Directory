@@ -1,0 +1,16 @@
+.employee-list::before{
+  display: none
+}
+.employee-list {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+.employee-list::after{
+  content: '';
+  width: 300px
+}
+
+.thumbnail {
+  width: 300px;
+}
